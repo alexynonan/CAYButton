@@ -22,9 +22,7 @@ pod 'CAYButton' , :path => 'CAYButton/'
 
 ## Author
 
-Alexander Johel Ynoñan Huayllapuma \n
-	-Email: alexanderynonan@gmail.com \n
-	-Phone: +51 987677106
+Alexander Johel Ynoñan Huayllapuma, Email: alexanderynonan@gmail.com, Phone: +51 987677106, Country: Perú 🇵🇪
 
 ## License
 
