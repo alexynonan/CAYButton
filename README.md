@@ -22,7 +22,9 @@ pod 'CAYButton'
 
 ## Author
 
-Alexander Johel Ynoñan Huayllapuma, alexanderynonan@gmail.com
+Alexander Johel Ynoñan Huayllapuma
+	-Email: alexanderynonan@gmail.com
+	-Phone: +51 987677106
 
 ## License
 
