@@ -1,9 +1,3 @@
-
-<p align="center">
-<img
-src='https://github.com/alexynonan/CAYButton/blob/master/Example/CAYButton/Images.xcassets/img_one.imageset/img_one.png' width="200"/>
-</p>
-
 # CAYButton
 
 [![CI Status](https://img.shields.io/travis/alexynonan/CAYButton.svg?style=flat)](https://travis-ci.org/alexynonan/CAYButton)
@@ -14,6 +8,16 @@ src='https://github.com/alexynonan/CAYButton/blob/master/Example/CAYButton/Image
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+<p align="center">
+<img
+src='https://github.com/alexynonan/CAYButton/blob/master/Example/CAYButton/Images.xcassets/img_splash.imageset/img_splash-1.png' width="200"/>
+<img
+src='https://github.com/alexynonan/CAYButton/blob/master/Example/CAYButton/Images.xcassets/img_one.imageset/img_one.png' width="200"/>
+<img
+src='https://github.com/alexynonan/CAYButton/blob/master/Example/CAYButton/Images.xcassets/img_two.imageset/img_two.png' width="200"/>
+</p>
+
 
 ## Requirements
 
