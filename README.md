@@ -9,16 +9,6 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-<p align="center">
-<img
-src='https://github.com/alexynonan/CAYButton/blob/master/Example/CAYButton/Images.xcassets/img_splash.imageset/img_splash-1.png' width="200"/>
-<img
-src='https://github.com/alexynonan/CAYButton/blob/master/Example/CAYButton/Images.xcassets/img_one.imageset/img_one.png' width="200"/>
-<img
-src='https://github.com/alexynonan/CAYButton/blob/master/Example/CAYButton/Images.xcassets/img_two.imageset/img_two.png' width="200"/>
-</p>
-
-
 ## Requirements
 
 ## Installation
@@ -33,6 +23,17 @@ pod 'CAYButton' , :path => 'CAYButton/'
 ## Author
 
 Alexander Johel Ynoñan Huayllapuma, Email: alexanderynonan@gmail.com, Phone: +51 987677106, Country: Perú 🇵🇪
+
+## Result Image
+
+<p align="center">
+<img
+src='https://github.com/alexynonan/CAYButton/blob/master/Example/CAYButton/Images.xcassets/img_splash.imageset/img_splash-1.png' width="200"/>
+<img
+src='https://github.com/alexynonan/CAYButton/blob/master/Example/CAYButton/Images.xcassets/img_one.imageset/img_one.png' width="200"/>
+<img
+src='https://github.com/alexynonan/CAYButton/blob/master/Example/CAYButton/Images.xcassets/img_two.imageset/img_two.png' width="200"/>
+</p>
 
 ## License
 
