@@ -1,3 +1,9 @@
+
+<p align="center">
+<img
+src='https://github.com/alexynonan/CAYButton/blob/master/Example/CAYButton/Images.xcassets/img_one.imageset/img_one.png' width="200"/>
+</p>
+
 # CAYButton
 
 [![CI Status](https://img.shields.io/travis/alexynonan/CAYButton.svg?style=flat)](https://travis-ci.org/alexynonan/CAYButton)
