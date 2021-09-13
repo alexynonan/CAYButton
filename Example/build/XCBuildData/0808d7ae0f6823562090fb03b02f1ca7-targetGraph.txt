@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+CAYButton in Pods
+Pods-CAYButton_Example in Pods, depends on:
+CAYButton in Pods (explicit)
+Pods-CAYButton_Tests in Pods, depends on:
+Pods-CAYButton_Example in Pods (explicit)

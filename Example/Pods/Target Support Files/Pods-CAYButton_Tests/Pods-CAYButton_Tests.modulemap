@@ -1,0 +1,6 @@
+framework module Pods_CAYButton_Tests {
+  umbrella header "Pods-CAYButton_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

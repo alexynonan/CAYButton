@@ -1,0 +1,6 @@
+framework module CAYButton {
+  umbrella header "CAYButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
