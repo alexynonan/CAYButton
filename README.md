@@ -17,13 +17,13 @@ CAYButton is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'CAYButton'
+pod 'CAYButton' , :path => 'CAYButton/'
 ```
 
 ## Author
 
-Alexander Johel Ynoñan Huayllapuma
-	-Email: alexanderynonan@gmail.com
+Alexander Johel Ynoñan Huayllapuma \n
+	-Email: alexanderynonan@gmail.com \n
 	-Phone: +51 987677106
 
 ## License
