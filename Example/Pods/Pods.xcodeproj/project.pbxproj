@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02052613317A284E8B64903CF8705D52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		15A970077EAAB5D16136854B6826A8A5 /* CAYUIButtonGradiendColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB26ECC84139238F0A7B40810E23B7D /* CAYUIButtonGradiendColor.swift */; };
+		3D98D13FEAF2B4EC18BFFBFDCF72E86B /* CAYUIButtonRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C071EC0747E51CD60DF3C6DC600824 /* CAYUIButtonRadius.swift */; };
 		47FCF9B914C9204C34D0FCBBB0519CB0 /* Pods-CAYButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E6CB5FF395001A6032EAFCA710E12D0 /* Pods-CAYButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		544C9A40C64851AD6AA0293E3CFCED81 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6627FB5AAA238FAAABD85CFE8A9D1 /* ReplaceMe.swift */; };
+		4E0A1B8B794D785EF29088B5FAAA9A9F /* CAYButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A8023BF921D5EB975F5FB9B0BC5781A /* CAYButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FAFB0F46F27218CF651C9C467C8D0A5 /* CAYButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CEFEED46E283069A44F36F490619183 /* CAYButton-dummy.m */; };
 		64E784BD0EF122C6D13A6FC8F96A21BF /* Pods-CAYButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2247097B60511BE2597D5C4311B924 /* Pods-CAYButton_Tests-dummy.m */; };
-		72DD9A0ED24DE0A520C1B2D68DB0D8A6 /* CAYButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B70FC70A3502EF10ADA50513A842C303 /* CAYButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72662010FBC576EBCA63EECEA0DC2FAF /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217197A77B01E7DC4D7E2F9A204084EF /* ReplaceMe.swift */; };
 		8FB80EBEA9D108D7C46E749D518EC225 /* Pods-CAYButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AC27DA5B68E932DFC5CC55E066D2F6B /* Pods-CAYButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95027FC226ED2161003417DB /* CAYUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95027FC126ED2161003417DB /* CAYUIButton.swift */; };
-		95027FC426ED2861003417DB /* CAYUIButtonGradiendColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95027FC326ED2861003417DB /* CAYUIButtonGradiendColor.swift */; };
-		95311EA326EC81D50009FB9B /* CAYUIButtonRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95311EA226EC81D50009FB9B /* CAYUIButtonRadius.swift */; };
-		958F284626EC7AA6003F5533 /* CAYUIButtonShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958F284526EC7AA6003F5533 /* CAYUIButtonShadow.swift */; };
-		9EF28B8E3A8C1835D2815A458D831994 /* CAYButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7881853EE3832D0D3620D230E6A9DCA /* CAYButton-dummy.m */; };
 		BFCED212B619D432F75641495EF911AF /* Pods-CAYButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 865F56E3DF26B5ECBD48A7BA023D7FD5 /* Pods-CAYButton_Example-dummy.m */; };
+		C800248D0061DE91E19D2D88801B10D0 /* CAYUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807C3CC911758ACF6E52F08914AD5E1C /* CAYUIButton.swift */; };
+		DB8F33505DD82D032243AAE4A2042B49 /* CAYUIButtonShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2235C0684A545332D904A25A9F4EC5F1 /* CAYUIButtonShadow.swift */; };
+		EFB805233A6A8F14492B568796230C2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		F022D9BA96DEE22CA2AE523E365DE041 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		F49AD4E33984C0CF3539E41C18417117 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2F414D2CCBF64AF856D92DF4FF2DD09C /* PBXContainerItemProxy */ = {
+		78358E98AC6E30DF9FC148629995E100 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F63893E6C0D3C630C31D41978DAE0DB8;
 			remoteInfo = "Pods-CAYButton_Example";
 		};
-		BB0335EB8BE287A97240497B2DF0ED91 /* PBXContainerItemProxy */ = {
+		E6D3014FAEFC9A2AB335DC450CC37A19 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -41,43 +41,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00A8F64986729D872FE7CCE2E50E4030 /* CAYButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CAYButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		09C6713DF18603AFC7FA25B9D835EA1A /* CAYButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CAYButton.modulemap; sourceTree = "<group>"; };
 		0E6CB5FF395001A6032EAFCA710E12D0 /* Pods-CAYButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CAYButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		169C63B147C55847F6667F07BC32DEBD /* CAYButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CAYButton-Info.plist"; sourceTree = "<group>"; };
+		1BFDE4055B76EF4307F879B97028C5B5 /* CAYButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CAYButton.debug.xcconfig; sourceTree = "<group>"; };
+		217197A77B01E7DC4D7E2F9A204084EF /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CAYButton/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		2235C0684A545332D904A25A9F4EC5F1 /* CAYUIButtonShadow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CAYUIButtonShadow.swift; path = CAYButton/Classes/CAYUIButtonShadow.swift; sourceTree = "<group>"; };
+		2A8023BF921D5EB975F5FB9B0BC5781A /* CAYButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAYButton-umbrella.h"; sourceTree = "<group>"; };
 		326C0BB60A97E70D7D5C6DD57DE39D42 /* Pods-CAYButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CAYButton_Example-Info.plist"; sourceTree = "<group>"; };
+		36B000F790E28019A18831370A04A63C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		413537EDEEE8C3528F24968F9686AA57 /* Pods-CAYButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CAYButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		41F6627FB5AAA238FAAABD85CFE8A9D1 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CAYButton/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		5035657A243DF2B78755CF5E8F6CEB87 /* Pods_CAYButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CAYButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		490FBE31B2DCD1646A113D099D2F7A54 /* CAYButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CAYButton.release.xcconfig; sourceTree = "<group>"; };
+		5035657A243DF2B78755CF5E8F6CEB87 /* Pods_CAYButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CAYButton_Tests.framework; path = "Pods-CAYButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AB26ECC84139238F0A7B40810E23B7D /* CAYUIButtonGradiendColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CAYUIButtonGradiendColor.swift; path = CAYButton/Classes/CAYUIButtonGradiendColor.swift; sourceTree = "<group>"; };
+		5CEFEED46E283069A44F36F490619183 /* CAYButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CAYButton-dummy.m"; sourceTree = "<group>"; };
+		64C071EC0747E51CD60DF3C6DC600824 /* CAYUIButtonRadius.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CAYUIButtonRadius.swift; path = CAYButton/Classes/CAYUIButtonRadius.swift; sourceTree = "<group>"; };
 		664D9C11DD3A91807D6F1EFDF4084767 /* Pods-CAYButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CAYButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		673E0D50BAA57905D5208CB4FE62BE93 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6AC27DA5B68E932DFC5CC55E066D2F6B /* Pods-CAYButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CAYButton_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6C2247097B60511BE2597D5C4311B924 /* Pods-CAYButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CAYButton_Tests-dummy.m"; sourceTree = "<group>"; };
-		6F58935E11630CB4027C4E82DB0DB318 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		716C388490C965DBC6C09C7CD803A126 /* Pods-CAYButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CAYButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7575919C2867A66C77923F5EAC380CB9 /* CAYButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CAYButton.modulemap; sourceTree = "<group>"; };
-		7C2605C1B32669B261EA77E86BE9CCE7 /* CAYButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAYButton-prefix.pch"; sourceTree = "<group>"; };
 		7EFB03A63DCB56F091D12D2025BFD228 /* Pods-CAYButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CAYButton_Example.modulemap"; sourceTree = "<group>"; };
+		807C3CC911758ACF6E52F08914AD5E1C /* CAYUIButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CAYUIButton.swift; path = CAYButton/Classes/CAYUIButton.swift; sourceTree = "<group>"; };
 		865F56E3DF26B5ECBD48A7BA023D7FD5 /* Pods-CAYButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CAYButton_Example-dummy.m"; sourceTree = "<group>"; };
-		8BCDCE074F956E8A278DB49FA63A9C61 /* CAYButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CAYButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F873C4835F41DF7FA8A873B33550919 /* CAYButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CAYButton.release.xcconfig; sourceTree = "<group>"; };
-		8FF828477331EC4AF0F76B3E18AC6BF0 /* CAYButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CAYButton-Info.plist"; sourceTree = "<group>"; };
-		90EDF9B730ACB8C9B99A66CA7B3B5295 /* CAYButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CAYButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8BCDCE074F956E8A278DB49FA63A9C61 /* CAYButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CAYButton.framework; path = CAYButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		946D534186B6959662EB8C5FC8B2013F /* Pods-CAYButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CAYButton_Tests-Info.plist"; sourceTree = "<group>"; };
-		95027FC126ED2161003417DB /* CAYUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAYUIButton.swift; sourceTree = "<group>"; };
-		95027FC326ED2861003417DB /* CAYUIButtonGradiendColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAYUIButtonGradiendColor.swift; sourceTree = "<group>"; };
-		95311EA226EC81D50009FB9B /* CAYUIButtonRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAYUIButtonRadius.swift; sourceTree = "<group>"; };
-		958F284526EC7AA6003F5533 /* CAYUIButtonShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAYUIButtonShadow.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5DBC3786DE9106EAC3A28C8B39C1D0D /* Pods-CAYButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CAYButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B70FC70A3502EF10ADA50513A842C303 /* CAYButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAYButton-umbrella.h"; sourceTree = "<group>"; };
 		D1FE1DB7871B169D311C23B30D115B2D /* Pods-CAYButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CAYButton_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D7881853EE3832D0D3620D230E6A9DCA /* CAYButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CAYButton-dummy.m"; sourceTree = "<group>"; };
 		D931EB5ECAB9E9C143E4DBCFA69FB6BC /* Pods-CAYButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CAYButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DE97E66E1C5103299C13CAEE9CA6AA5F /* Pods-CAYButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CAYButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E1917A85D86900CAF411740EE32FF0DB /* CAYButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CAYButton.debug.xcconfig; sourceTree = "<group>"; };
 		E738FB44C00B97EAA92A98A49471E129 /* Pods-CAYButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CAYButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EA2134E457BAD016A747214E817B5751 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EAC57F3D29D92831AF2E4648A4A2FE72 /* CAYButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAYButton-prefix.pch"; sourceTree = "<group>"; };
 		F605B0BFEF6E1C857514C2986F6A6DC6 /* Pods-CAYButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CAYButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F8D04EEDCE62483975CDCD72A3A727D0 /* Pods-CAYButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CAYButton_Tests.modulemap"; sourceTree = "<group>"; };
-		F96ECE5F9D3251588DDC82817F6BCF8C /* Pods_CAYButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CAYButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F96ECE5F9D3251588DDC82817F6BCF8C /* Pods_CAYButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CAYButton_Example.framework; path = "Pods-CAYButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,17 +97,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A60D5BF9D992AF36C8637043E381E22F /* Frameworks */ = {
+		2D8ABAD661710715E88C406D8BB118F4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02052613317A284E8B64903CF8705D52 /* Foundation.framework in Frameworks */,
+				EFB805233A6A8F14492B568796230C2D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		148A43C8CED1FBAE47B21305E767B4E0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BEA37B2DC521B8E7174D9C29540F444 /* CAYButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2BEFE7B2233F0944C6FE39991C72D6B6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				00A8F64986729D872FE7CCE2E50E4030 /* CAYButton.podspec */,
+				673E0D50BAA57905D5208CB4FE62BE93 /* LICENSE */,
+				36B000F790E28019A18831370A04A63C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		2D7DF48862C7757EDDD8B43413436E5C /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +153,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		63C4A3A6DF1F2905DD33D5ED287533A9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				09C6713DF18603AFC7FA25B9D835EA1A /* CAYButton.modulemap */,
+				5CEFEED46E283069A44F36F490619183 /* CAYButton-dummy.m */,
+				169C63B147C55847F6667F07BC32DEBD /* CAYButton-Info.plist */,
+				EAC57F3D29D92831AF2E4648A4A2FE72 /* CAYButton-prefix.pch */,
+				2A8023BF921D5EB975F5FB9B0BC5781A /* CAYButton-umbrella.h */,
+				1BFDE4055B76EF4307F879B97028C5B5 /* CAYButton.debug.xcconfig */,
+				490FBE31B2DCD1646A113D099D2F7A54 /* CAYButton.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CAYButton";
+			sourceTree = "<group>";
+		};
 		68532029DBA0F2DB8B0E95D9D70087DB /* Pods-CAYButton_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,31 +184,16 @@
 			path = "Target Support Files/Pods-CAYButton_Tests";
 			sourceTree = "<group>";
 		};
-		91F190409F777F3B8522E2DEB3CD12C7 /* Support Files */ = {
+		7BEA37B2DC521B8E7174D9C29540F444 /* CAYButton */ = {
 			isa = PBXGroup;
 			children = (
-				7575919C2867A66C77923F5EAC380CB9 /* CAYButton.modulemap */,
-				D7881853EE3832D0D3620D230E6A9DCA /* CAYButton-dummy.m */,
-				8FF828477331EC4AF0F76B3E18AC6BF0 /* CAYButton-Info.plist */,
-				7C2605C1B32669B261EA77E86BE9CCE7 /* CAYButton-prefix.pch */,
-				B70FC70A3502EF10ADA50513A842C303 /* CAYButton-umbrella.h */,
-				E1917A85D86900CAF411740EE32FF0DB /* CAYButton.debug.xcconfig */,
-				8F873C4835F41DF7FA8A873B33550919 /* CAYButton.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CAYButton";
-			sourceTree = "<group>";
-		};
-		C66CDD4FC33F7CBB0A36F2C24FE4E86E /* CAYButton */ = {
-			isa = PBXGroup;
-			children = (
-				41F6627FB5AAA238FAAABD85CFE8A9D1 /* ReplaceMe.swift */,
-				95027FC126ED2161003417DB /* CAYUIButton.swift */,
-				95027FC326ED2861003417DB /* CAYUIButtonGradiendColor.swift */,
-				958F284526EC7AA6003F5533 /* CAYUIButtonShadow.swift */,
-				95311EA226EC81D50009FB9B /* CAYUIButtonRadius.swift */,
-				E4B9F71406D16651AB7DFB5A1C22949F /* Pod */,
-				91F190409F777F3B8522E2DEB3CD12C7 /* Support Files */,
+				807C3CC911758ACF6E52F08914AD5E1C /* CAYUIButton.swift */,
+				5AB26ECC84139238F0A7B40810E23B7D /* CAYUIButtonGradiendColor.swift */,
+				64C071EC0747E51CD60DF3C6DC600824 /* CAYUIButtonRadius.swift */,
+				2235C0684A545332D904A25A9F4EC5F1 /* CAYUIButtonShadow.swift */,
+				217197A77B01E7DC4D7E2F9A204084EF /* ReplaceMe.swift */,
+				2BEFE7B2233F0944C6FE39991C72D6B6 /* Pod */,
+				63C4A3A6DF1F2905DD33D5ED287533A9 /* Support Files */,
 			);
 			name = CAYButton;
 			path = ../..;
@@ -185,7 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				EDC46B8D34414B2B92048EFAE1DCE977 /* Development Pods */,
+				148A43C8CED1FBAE47B21305E767B4E0 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				2D7DF48862C7757EDDD8B43413436E5C /* Products */,
 				39792AD4F2C6659A51533BDE030B0C74 /* Targets Support Files */,
@@ -217,24 +235,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E4B9F71406D16651AB7DFB5A1C22949F /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				90EDF9B730ACB8C9B99A66CA7B3B5295 /* CAYButton.podspec */,
-				6F58935E11630CB4027C4E82DB0DB318 /* LICENSE */,
-				EA2134E457BAD016A747214E817B5751 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		EDC46B8D34414B2B92048EFAE1DCE977 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C66CDD4FC33F7CBB0A36F2C24FE4E86E /* CAYButton */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -246,11 +246,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE8813C7536CB0F5CA04575A0F6D41DE /* Headers */ = {
+		9AFD03DC4F7AFC1F41C66CF00B62469A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72DD9A0ED24DE0A520C1B2D68DB0D8A6 /* CAYButton-umbrella.h in Headers */,
+				4E0A1B8B794D785EF29088B5FAAA9A9F /* CAYButton-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,12 +267,12 @@
 /* Begin PBXNativeTarget section */
 		5C5524062BA386540280D658ECB4AB17 /* CAYButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE266EA6C4E81C5A6338A93EE4E117E4 /* Build configuration list for PBXNativeTarget "CAYButton" */;
+			buildConfigurationList = A0F7CF9A8E845A51DBF2E338F2C8EF2D /* Build configuration list for PBXNativeTarget "CAYButton" */;
 			buildPhases = (
-				BE8813C7536CB0F5CA04575A0F6D41DE /* Headers */,
-				BDFBC4CAEB3E6F263D088278FFFB54FF /* Sources */,
-				A60D5BF9D992AF36C8637043E381E22F /* Frameworks */,
-				CFD71945BB5955C2E250AA5DDEAF450B /* Resources */,
+				9AFD03DC4F7AFC1F41C66CF00B62469A /* Headers */,
+				738749A395A55C10B811228C1ED4FC64 /* Sources */,
+				2D8ABAD661710715E88C406D8BB118F4 /* Frameworks */,
+				04E587F16D3D3B4CB770110983DA0BE6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -295,7 +295,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				9E5134E111AEC130287880CEE159483F /* PBXTargetDependency */,
+				A43DE78473E219771471A1DF04CD27E0 /* PBXTargetDependency */,
 			);
 			name = "Pods-CAYButton_Tests";
 			productName = "Pods-CAYButton_Tests";
@@ -314,7 +314,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				DAA7F60699CCC7779BF79C0A99E29956 /* PBXTargetDependency */,
+				3D61973579B28257A88B2EB6F842EDA0 /* PBXTargetDependency */,
 			);
 			name = "Pods-CAYButton_Example";
 			productName = "Pods-CAYButton_Example";
@@ -328,12 +328,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1250;
-				TargetAttributes = {
-					5C5524062BA386540280D658ECB4AB17 = {
-						LastSwiftMigration = 1250;
-					};
-				};
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -356,14 +351,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		33BEB55B991197537B2BE5114E690931 /* Resources */ = {
+		04E587F16D3D3B4CB770110983DA0BE6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CFD71945BB5955C2E250AA5DDEAF450B /* Resources */ = {
+		33BEB55B991197537B2BE5114E690931 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -380,16 +375,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BDFBC4CAEB3E6F263D088278FFFB54FF /* Sources */ = {
+		738749A395A55C10B811228C1ED4FC64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EF28B8E3A8C1835D2815A458D831994 /* CAYButton-dummy.m in Sources */,
-				95027FC226ED2161003417DB /* CAYUIButton.swift in Sources */,
-				95311EA326EC81D50009FB9B /* CAYUIButtonRadius.swift in Sources */,
-				95027FC426ED2861003417DB /* CAYUIButtonGradiendColor.swift in Sources */,
-				958F284626EC7AA6003F5533 /* CAYUIButtonShadow.swift in Sources */,
-				544C9A40C64851AD6AA0293E3CFCED81 /* ReplaceMe.swift in Sources */,
+				5FAFB0F46F27218CF651C9C467C8D0A5 /* CAYButton-dummy.m in Sources */,
+				C800248D0061DE91E19D2D88801B10D0 /* CAYUIButton.swift in Sources */,
+				15A970077EAAB5D16136854B6826A8A5 /* CAYUIButtonGradiendColor.swift in Sources */,
+				3D98D13FEAF2B4EC18BFFBFDCF72E86B /* CAYUIButtonRadius.swift in Sources */,
+				DB8F33505DD82D032243AAE4A2042B49 /* CAYUIButtonShadow.swift in Sources */,
+				72662010FBC576EBCA63EECEA0DC2FAF /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,58 +407,27 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9E5134E111AEC130287880CEE159483F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-CAYButton_Example";
-			target = F63893E6C0D3C630C31D41978DAE0DB8 /* Pods-CAYButton_Example */;
-			targetProxy = 2F414D2CCBF64AF856D92DF4FF2DD09C /* PBXContainerItemProxy */;
-		};
-		DAA7F60699CCC7779BF79C0A99E29956 /* PBXTargetDependency */ = {
+		3D61973579B28257A88B2EB6F842EDA0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CAYButton;
 			target = 5C5524062BA386540280D658ECB4AB17 /* CAYButton */;
-			targetProxy = BB0335EB8BE287A97240497B2DF0ED91 /* PBXContainerItemProxy */;
+			targetProxy = E6D3014FAEFC9A2AB335DC450CC37A19 /* PBXContainerItemProxy */;
+		};
+		A43DE78473E219771471A1DF04CD27E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CAYButton_Example";
+			target = F63893E6C0D3C630C31D41978DAE0DB8 /* Pods-CAYButton_Example */;
+			targetProxy = 78358E98AC6E30DF9FC148629995E100 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		17F667A29B73EC58C3004F368D1FC935 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F873C4835F41DF7FA8A873B33550919 /* CAYButton.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CAYButton/CAYButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CAYButton/CAYButton-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CAYButton/CAYButton.modulemap";
-				PRODUCT_MODULE_NAME = CAYButton;
-				PRODUCT_NAME = CAYButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		18C45CA0483F94FF6C32784A93426755 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 413537EDEEE8C3528F24968F9686AA57 /* Pods-CAYButton_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -475,7 +439,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CAYButton_Tests/Pods-CAYButton_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CAYButton_Tests/Pods-CAYButton_Tests.modulemap";
@@ -493,43 +457,11 @@
 			};
 			name = Release;
 		};
-		4D7B17B155938DD06DD1A6E11EC64B3A /* Debug */ = {
+		322DF8ABDCA1CE5F09EF6EF4E233167B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D931EB5ECAB9E9C143E4DBCFA69FB6BC /* Pods-CAYButton_Example.debug.xcconfig */;
+			baseConfigurationReference = 490FBE31B2DCD1646A113D099D2F7A54 /* CAYButton.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CAYButton_Example/Pods-CAYButton_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CAYButton_Example/Pods-CAYButton_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6F26D1D0E9DE5907D98DDD4D113E1290 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1917A85D86900CAF411740EE32FF0DB /* CAYButton.debug.xcconfig */;
-			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -542,7 +474,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CAYButton/CAYButton-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CAYButton/CAYButton-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CAYButton/CAYButton.modulemap";
 				PRODUCT_MODULE_NAME = CAYButton;
@@ -551,6 +483,41 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4D7B17B155938DD06DD1A6E11EC64B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D931EB5ECAB9E9C143E4DBCFA69FB6BC /* Pods-CAYButton_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CAYButton_Example/Pods-CAYButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CAYButton_Example/Pods-CAYButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -607,12 +574,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -623,6 +591,7 @@
 			baseConfigurationReference = 716C388490C965DBC6C09C7CD803A126 /* Pods-CAYButton_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -634,7 +603,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CAYButton_Tests/Pods-CAYButton_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CAYButton_Tests/Pods-CAYButton_Tests.modulemap";
@@ -704,7 +673,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -717,11 +686,44 @@
 			};
 			name = Debug;
 		};
+		E9637C9D12EC79248CE0992048695297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BFDE4055B76EF4307F879B97028C5B5 /* CAYButton.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CAYButton/CAYButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CAYButton/CAYButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CAYButton/CAYButton.modulemap";
+				PRODUCT_MODULE_NAME = CAYButton;
+				PRODUCT_NAME = CAYButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		EB9ACC0C5845D98DF4DB977A7AD1A906 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D1FE1DB7871B169D311C23B30D115B2D /* Pods-CAYButton_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -733,7 +735,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CAYButton_Example/Pods-CAYButton_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CAYButton_Example/Pods-CAYButton_Example.modulemap";
@@ -772,20 +774,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		A0F7CF9A8E845A51DBF2E338F2C8EF2D /* Build configuration list for PBXNativeTarget "CAYButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9637C9D12EC79248CE0992048695297 /* Debug */,
+				322DF8ABDCA1CE5F09EF6EF4E233167B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A7149DDD9CB729ADD71184639AA4130D /* Build configuration list for PBXNativeTarget "Pods-CAYButton_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9262F34F2E6A0043383A49D1E342D49D /* Debug */,
 				18C45CA0483F94FF6C32784A93426755 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EE266EA6C4E81C5A6338A93EE4E117E4 /* Build configuration list for PBXNativeTarget "CAYButton" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6F26D1D0E9DE5907D98DDD4D113E1290 /* Debug */,
-				17F667A29B73EC58C3004F368D1FC935 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

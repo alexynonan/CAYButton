@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="rSH-bG-Lch">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Custom Button 1-->
+        <!--Custom Button-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="CAYButton_Example" customModuleProvider="target" sceneMemberID="viewController">
@@ -17,14 +16,13 @@
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9kj-21-EFe" customClass="CAYUIButtonRadius" customModule="CAYButton">
-                                <rect key="frame" x="16" y="64" width="150" height="60"/>
+                                <rect key="frame" x="16" y="134" width="174" height="60"/>
                                 <color key="backgroundColor" red="0.98081249000000004" green="0.46117466689999997" blue="0.0080107254910000009" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="eUS-GT-fRz"/>
                                     <constraint firstAttribute="height" constant="60" id="ymN-Ej-bGD"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
@@ -34,10 +32,9 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hCB-iY-y6m" customClass="CAYUIButtonRadius" customModule="CAYButton">
-                                <rect key="frame" x="186" y="64" width="150" height="60"/>
+                                <rect key="frame" x="210" y="134" width="174" height="60"/>
                                 <color key="backgroundColor" red="0.98081249000000004" green="0.46117466689999997" blue="0.0080107254910000009" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="LSF-5Z-Lcv"/>
                                     <constraint firstAttribute="height" constant="60" id="lSb-42-p5E"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
@@ -48,11 +45,10 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XBL-z6-2TZ" customClass="CAYUIButtonRadius" customModule="CAYButton">
-                                <rect key="frame" x="16" y="134" width="150" height="60"/>
+                                <rect key="frame" x="16" y="204" width="174" height="60"/>
                                 <color key="backgroundColor" red="0.98081249000000004" green="0.46117466689999997" blue="0.0080107254910000009" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="kgB-Ng-6is"/>
-                                    <constraint firstAttribute="width" constant="150" id="n7u-jn-skV"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -63,11 +59,10 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="918-uz-MMa" customClass="CAYUIButtonRadius" customModule="CAYButton">
-                                <rect key="frame" x="186" y="134" width="150" height="60"/>
+                                <rect key="frame" x="210" y="204" width="174" height="60"/>
                                 <color key="backgroundColor" red="0.98081249000000004" green="0.46117466689999997" blue="0.0080107254910000009" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="7Hd-ON-IJf"/>
-                                    <constraint firstAttribute="width" constant="150" id="P97-zk-hgI"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -79,10 +74,9 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wqj-kM-2l4" customClass="CAYUIButtonShadow" customModule="CAYButton">
-                                <rect key="frame" x="16" y="204" width="150" height="60"/>
+                                <rect key="frame" x="16" y="320" width="174" height="60"/>
                                 <color key="backgroundColor" red="0.20081916450000001" green="0.70229786630000002" blue="0.66359823939999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="N8x-Gx-slC"/>
                                     <constraint firstAttribute="height" constant="60" id="PKL-wE-CdO"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
@@ -98,13 +92,15 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
                                         <real key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t3v-d9-4MA" customClass="CAYUIButtonShadow" customModule="CAYButton">
-                                <rect key="frame" x="186" y="204" width="150" height="60"/>
+                                <rect key="frame" x="210" y="320" width="174" height="60"/>
                                 <color key="backgroundColor" red="0.20081916450000001" green="0.70229786630000002" blue="0.66359823939999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="2TB-ao-Yc1"/>
                                     <constraint firstAttribute="height" constant="60" id="ejD-7S-4zq"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
@@ -120,13 +116,15 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
                                         <real key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wjk-b1-LP7" customClass="CAYUIButtonShadow" customModule="CAYButton">
-                                <rect key="frame" x="16" y="274" width="150" height="60"/>
+                                <rect key="frame" x="16" y="395" width="174" height="60"/>
                                 <color key="backgroundColor" red="0.20081916450000001" green="0.70229786630000002" blue="0.66359823939999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="KUs-HQ-Nuk"/>
                                     <constraint firstAttribute="height" constant="60" id="doB-MK-R5D"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
@@ -142,13 +140,15 @@
                                     <userDefinedRuntimeAttribute type="size" keyPath="shadowOffSet">
                                         <size key="value" width="5" height="0.0"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MK7-hS-neQ" customClass="CAYUIButtonShadow" customModule="CAYButton">
-                                <rect key="frame" x="186" y="274" width="150" height="60"/>
+                                <rect key="frame" x="210" y="395" width="174" height="60"/>
                                 <color key="backgroundColor" red="0.20081916450000001" green="0.70229786630000002" blue="0.66359823939999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="CJH-D4-op3"/>
                                     <constraint firstAttribute="height" constant="60" id="fVO-bN-W2g"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
@@ -164,14 +164,16 @@
                                     <userDefinedRuntimeAttribute type="size" keyPath="shadowOffSet">
                                         <size key="value" width="5" height="0.0"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FxG-2B-7hb" customClass="CAYUIButtonShadow" customModule="CAYButton">
-                                <rect key="frame" x="16" y="344" width="150" height="60"/>
+                                <rect key="frame" x="16" y="465" width="174" height="60"/>
                                 <color key="backgroundColor" red="0.20081916450000001" green="0.70229786630000002" blue="0.66359823939999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="1qD-c5-byN"/>
-                                    <constraint firstAttribute="width" constant="150" id="4vv-NX-asL"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
@@ -186,13 +188,15 @@
                                     <userDefinedRuntimeAttribute type="size" keyPath="shadowOffSet">
                                         <size key="value" width="5" height="5"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ed1-gV-l32" customClass="CAYUIButtonShadow" customModule="CAYButton">
-                                <rect key="frame" x="186" y="344" width="150" height="60"/>
+                                <rect key="frame" x="210" y="465" width="174" height="60"/>
                                 <color key="backgroundColor" red="0.20081916450000001" green="0.70229786630000002" blue="0.66359823939999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="gDI-Nt-rI1"/>
                                     <constraint firstAttribute="height" constant="60" id="m1h-5R-Ffa"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
@@ -208,13 +212,15 @@
                                     <userDefinedRuntimeAttribute type="size" keyPath="shadowOffSet">
                                         <size key="value" width="5" height="-5"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k67-8e-hod" customClass="CAYUIButtonShadow" customModule="CAYButton">
-                                <rect key="frame" x="16" y="424" width="150" height="60"/>
+                                <rect key="frame" x="16" y="545" width="174" height="60"/>
                                 <color key="backgroundColor" red="0.20081916450000001" green="0.70229786630000002" blue="0.66359823939999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="KKh-FG-wnF"/>
                                     <constraint firstAttribute="height" constant="60" id="ZfV-x8-QOs"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
@@ -230,13 +236,15 @@
                                     <userDefinedRuntimeAttribute type="size" keyPath="shadowOffSet">
                                         <size key="value" width="-5" height="-5"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BsK-nP-erD" customClass="CAYUIButtonShadow" customModule="CAYButton">
-                                <rect key="frame" x="186" y="424" width="150" height="60"/>
+                                <rect key="frame" x="210" y="545" width="174" height="60"/>
                                 <color key="backgroundColor" red="0.20081916450000001" green="0.70229786630000002" blue="0.66359823939999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="RSa-Nv-FVj"/>
                                     <constraint firstAttribute="height" constant="60" id="zX8-vB-uNu"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
@@ -249,51 +257,84 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
                                         <real key="value" value="7"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cWd-1U-BvU">
-                                <rect key="frame" x="149" y="607" width="77" height="30"/>
+                                <rect key="frame" x="168.5" y="802" width="77" height="30"/>
                                 <state key="normal" title="SIGUIENTE"/>
                                 <connections>
                                     <segue destination="jNE-Mi-yun" kind="show" id="5HQ-PM-dx5"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CAYUIButtonRadius" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xwv-PG-8Nb">
+                                <rect key="frame" x="30" y="98" width="354" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CAYUIButtonShadow" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VoJ-EF-vNN">
+                                <rect key="frame" x="30" y="284" width="354" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Ed1-gV-l32" firstAttribute="leading" secondItem="FxG-2B-7hb" secondAttribute="trailing" constant="20" id="1zW-yT-jyy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Xwv-PG-8Nb" secondAttribute="trailing" constant="10" id="2oH-1q-00O"/>
+                            <constraint firstItem="k67-8e-hod" firstAttribute="width" secondItem="BsK-nP-erD" secondAttribute="width" id="2su-Yz-dw5"/>
+                            <constraint firstItem="MK7-hS-neQ" firstAttribute="trailing" secondItem="t3v-d9-4MA" secondAttribute="trailing" id="4fK-Up-2ZA"/>
                             <constraint firstItem="MK7-hS-neQ" firstAttribute="leading" secondItem="wjk-b1-LP7" secondAttribute="trailing" constant="20" id="4lX-gS-18n"/>
+                            <constraint firstItem="VoJ-EF-vNN" firstAttribute="trailing" secondItem="Xwv-PG-8Nb" secondAttribute="trailing" id="6w6-X2-L8V"/>
                             <constraint firstItem="FxG-2B-7hb" firstAttribute="leading" secondItem="wjk-b1-LP7" secondAttribute="leading" id="790-gm-wpK"/>
+                            <constraint firstItem="wqj-kM-2l4" firstAttribute="top" secondItem="VoJ-EF-vNN" secondAttribute="bottom" constant="15" id="7Sc-P9-47X"/>
+                            <constraint firstItem="t3v-d9-4MA" firstAttribute="trailing" secondItem="VoJ-EF-vNN" secondAttribute="trailing" id="7XL-Fx-wmO"/>
                             <constraint firstItem="cWd-1U-BvU" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="7qs-LU-jtY"/>
+                            <constraint firstItem="wjk-b1-LP7" firstAttribute="width" secondItem="MK7-hS-neQ" secondAttribute="width" id="90Z-Bs-35J"/>
+                            <constraint firstItem="wqj-kM-2l4" firstAttribute="width" secondItem="t3v-d9-4MA" secondAttribute="width" id="FMB-sc-L7s"/>
                             <constraint firstItem="k67-8e-hod" firstAttribute="top" secondItem="FxG-2B-7hb" secondAttribute="bottom" constant="20" id="KRk-ei-lVH"/>
+                            <constraint firstItem="9kj-21-EFe" firstAttribute="width" secondItem="hCB-iY-y6m" secondAttribute="width" id="Max-tO-tuf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hCB-iY-y6m" secondAttribute="trailing" constant="10" id="NP3-z7-Tgn"/>
                             <constraint firstItem="wjk-b1-LP7" firstAttribute="leading" secondItem="wqj-kM-2l4" secondAttribute="leading" id="RG0-kF-a1I"/>
                             <constraint firstItem="Ed1-gV-l32" firstAttribute="centerY" secondItem="FxG-2B-7hb" secondAttribute="centerY" id="SdZ-eh-069"/>
+                            <constraint firstItem="XBL-z6-2TZ" firstAttribute="width" secondItem="918-uz-MMa" secondAttribute="width" id="Ttl-hp-QXA"/>
                             <constraint firstItem="t3v-d9-4MA" firstAttribute="leading" secondItem="wqj-kM-2l4" secondAttribute="trailing" constant="20" id="V8U-8j-dXC"/>
                             <constraint firstItem="MK7-hS-neQ" firstAttribute="centerY" secondItem="wjk-b1-LP7" secondAttribute="centerY" id="Vla-A6-CG5"/>
                             <constraint firstItem="k67-8e-hod" firstAttribute="leading" secondItem="FxG-2B-7hb" secondAttribute="leading" id="YmG-nF-wCV"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="cWd-1U-BvU" secondAttribute="bottom" constant="30" id="ZJd-WO-HFP"/>
-                            <constraint firstItem="wqj-kM-2l4" firstAttribute="top" secondItem="XBL-z6-2TZ" secondAttribute="bottom" constant="10" id="ZTr-YM-NeY"/>
                             <constraint firstItem="wqj-kM-2l4" firstAttribute="leading" secondItem="XBL-z6-2TZ" secondAttribute="leading" id="aBJ-af-MeN"/>
                             <constraint firstItem="XBL-z6-2TZ" firstAttribute="top" secondItem="9kj-21-EFe" secondAttribute="bottom" constant="10" id="aKg-hI-8M6"/>
+                            <constraint firstItem="FxG-2B-7hb" firstAttribute="width" secondItem="Ed1-gV-l32" secondAttribute="width" id="bKZ-8S-wIb"/>
                             <constraint firstItem="918-uz-MMa" firstAttribute="centerY" secondItem="XBL-z6-2TZ" secondAttribute="centerY" id="bgs-S5-yZB"/>
                             <constraint firstItem="BsK-nP-erD" firstAttribute="leading" secondItem="k67-8e-hod" secondAttribute="trailing" constant="20" id="bkJ-D3-pVU"/>
                             <constraint firstItem="hCB-iY-y6m" firstAttribute="leading" secondItem="9kj-21-EFe" secondAttribute="trailing" constant="20" id="gC4-Is-GUK"/>
                             <constraint firstItem="BsK-nP-erD" firstAttribute="centerY" secondItem="k67-8e-hod" secondAttribute="centerY" id="gQt-eV-tqQ"/>
                             <constraint firstItem="hCB-iY-y6m" firstAttribute="centerY" secondItem="9kj-21-EFe" secondAttribute="centerY" id="iAN-zc-vp1"/>
+                            <constraint firstItem="9kj-21-EFe" firstAttribute="top" secondItem="Xwv-PG-8Nb" secondAttribute="bottom" constant="15" id="iZp-4R-820"/>
+                            <constraint firstItem="Xwv-PG-8Nb" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="10" id="iqM-9e-wg5"/>
+                            <constraint firstItem="VoJ-EF-vNN" firstAttribute="top" secondItem="XBL-z6-2TZ" secondAttribute="bottom" constant="20" id="irI-pp-P82"/>
                             <constraint firstItem="t3v-d9-4MA" firstAttribute="centerY" secondItem="wqj-kM-2l4" secondAttribute="centerY" id="jF4-bR-Y9e"/>
-                            <constraint firstItem="wjk-b1-LP7" firstAttribute="top" secondItem="wqj-kM-2l4" secondAttribute="bottom" constant="10" id="lSJ-qf-aGg"/>
+                            <constraint firstItem="918-uz-MMa" firstAttribute="trailing" secondItem="hCB-iY-y6m" secondAttribute="trailing" id="kc8-bW-nkv"/>
+                            <constraint firstItem="wjk-b1-LP7" firstAttribute="top" secondItem="wqj-kM-2l4" secondAttribute="bottom" constant="15" id="lSJ-qf-aGg"/>
                             <constraint firstItem="918-uz-MMa" firstAttribute="leading" secondItem="XBL-z6-2TZ" secondAttribute="trailing" constant="20" id="me7-en-myA"/>
+                            <constraint firstItem="Ed1-gV-l32" firstAttribute="trailing" secondItem="MK7-hS-neQ" secondAttribute="trailing" id="oAt-7H-X3K"/>
                             <constraint firstItem="9kj-21-EFe" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="r0V-9u-ysm"/>
+                            <constraint firstItem="Xwv-PG-8Nb" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="10" id="rGc-Cy-hai"/>
+                            <constraint firstItem="BsK-nP-erD" firstAttribute="trailing" secondItem="Ed1-gV-l32" secondAttribute="trailing" id="xaJ-89-xNt"/>
+                            <constraint firstItem="VoJ-EF-vNN" firstAttribute="leading" secondItem="Xwv-PG-8Nb" secondAttribute="leading" id="xkw-fD-TUj"/>
                             <constraint firstItem="FxG-2B-7hb" firstAttribute="top" secondItem="wjk-b1-LP7" secondAttribute="bottom" constant="10" id="yM7-J7-fiT"/>
-                            <constraint firstItem="9kj-21-EFe" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="yuA-zK-Xcf"/>
                             <constraint firstItem="XBL-z6-2TZ" firstAttribute="leading" secondItem="9kj-21-EFe" secondAttribute="leading" id="z6L-Qy-Sta"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Custom Button 1" id="Ttd-Rp-oob"/>
+                    <navigationItem key="navigationItem" title="Custom Button" id="Ttd-Rp-oob"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="876" y="132.68365817091455"/>
+            <point key="canvasLocation" x="875.36231884057975" y="132.58928571428572"/>
         </scene>
         <!--Custom Button 2-->
         <scene sceneID="HKk-TV-Jh5">
@@ -304,14 +345,13 @@
                         <viewControllerLayoutGuide type="bottom" id="QlK-Vk-vcE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Kl7-K8-6h9">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FV8-QB-eh9" customClass="CAYUIButtonGradiendColor" customModule="CAYButton">
-                                <rect key="frame" x="16" y="64" width="150" height="60"/>
+                                <rect key="frame" x="16" y="129" width="171" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="AEN-l8-ZHO"/>
-                                    <constraint firstAttribute="width" constant="150" id="oWS-9V-WE2"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="topColor">
@@ -348,10 +388,9 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0I8-wE-p7p" customClass="CAYUIButtonGradiendColor" customModule="CAYButton">
-                                <rect key="frame" x="186" y="64" width="150" height="60"/>
+                                <rect key="frame" x="207" y="129" width="171" height="60"/>
                                 <color key="backgroundColor" red="0.98081249000000004" green="0.46117466689999997" blue="0.0080107254910000009" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="ggN-aR-kfb"/>
                                     <constraint firstAttribute="height" constant="60" id="yhR-wH-rak"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
@@ -371,11 +410,10 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AS9-kN-Zw4" customClass="CAYUIButtonGradiendColor" customModule="CAYButton">
-                                <rect key="frame" x="16" y="134" width="150" height="60"/>
+                                <rect key="frame" x="16" y="209" width="171" height="60"/>
                                 <color key="backgroundColor" red="0.98081249000000004" green="0.46117466689999997" blue="0.0080107254910000009" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="4hh-Fo-ccc"/>
-                                    <constraint firstAttribute="width" constant="150" id="wul-Cu-a9w"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -395,10 +433,9 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gna-Jh-bCz" customClass="CAYUIButtonGradiendColor" customModule="CAYButton">
-                                <rect key="frame" x="186" y="134" width="150" height="60"/>
+                                <rect key="frame" x="207" y="209" width="171" height="60"/>
                                 <color key="backgroundColor" red="0.98081249000000004" green="0.46117466689999997" blue="0.0080107254910000009" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="2Td-X4-laA"/>
                                     <constraint firstAttribute="height" constant="60" id="x9L-ce-n2r"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
@@ -420,10 +457,9 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fgp-F7-fIj" customClass="CAYUIButtonGradiendColor" customModule="CAYButton">
-                                <rect key="frame" x="16" y="204" width="150" height="60"/>
+                                <rect key="frame" x="16" y="289" width="171" height="60"/>
                                 <color key="backgroundColor" red="0.20081916450000001" green="0.70229786630000002" blue="0.66359823939999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="NIa-gQ-1rU"/>
                                     <constraint firstAttribute="height" constant="60" id="Txh-eQ-eXP"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
@@ -448,11 +484,10 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cyp-KN-DtW" customClass="CAYUIButtonGradiendColor" customModule="CAYButton">
-                                <rect key="frame" x="186" y="204" width="150" height="60"/>
+                                <rect key="frame" x="207" y="289" width="171" height="60"/>
                                 <color key="backgroundColor" red="0.20081916450000001" green="0.70229786630000002" blue="0.66359823939999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="92p-Qp-L0d"/>
-                                    <constraint firstAttribute="width" constant="150" id="WOG-Y5-HTM"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
@@ -482,11 +517,10 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HzY-K2-XQc" customClass="CAYUIButton" customModule="CAYButton">
-                                <rect key="frame" x="16" y="274" width="150" height="60"/>
+                                <rect key="frame" x="16" y="420" width="171" height="60"/>
                                 <color key="backgroundColor" red="0.98081249000000004" green="0.46117466689999997" blue="0.0080107254910000009" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="qh3-28-dW2"/>
-                                    <constraint firstAttribute="width" constant="150" id="rA4-Lo-r6H"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="9"/>
                                 <state key="normal">
@@ -517,13 +551,12 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ub3-kQ-vQx" customClass="CAYUIButton" customModule="CAYButton">
-                                <rect key="frame" x="186" y="274" width="150" height="60"/>
+                                <rect key="frame" x="207" y="420" width="171" height="60"/>
                                 <color key="backgroundColor" red="0.20081916450000001" green="0.70229786630000002" blue="0.66359823939999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="QmE-Vf-0ao"/>
                                     <constraint firstAttribute="height" constant="60" id="ZpA-WW-V02"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Alexander Ynoñan">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -553,12 +586,12 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z9U-df-aAT" customClass="CAYUIButton" customModule="CAYButton">
-                                <rect key="frame" x="16" y="344" width="150" height="60"/>
+                                <rect key="frame" x="16" y="500" width="171" height="60"/>
                                 <color key="backgroundColor" red="0.20081916450000001" green="0.70229786630000002" blue="0.66359823939999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="ZFh-eL-UMd"/>
-                                    <constraint firstAttribute="width" constant="150" id="ZVw-Te-Scc"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Alexander">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -605,13 +638,15 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3p0-sv-cne" customClass="CAYUIButton" customModule="CAYButton">
-                                <rect key="frame" x="186" y="344" width="150" height="60"/>
+                                <rect key="frame" x="207" y="500" width="171" height="60"/>
                                 <color key="backgroundColor" red="0.20081916450000001" green="0.70229786630000002" blue="0.66359823939999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="gBO-Ai-MFR"/>
-                                    <constraint firstAttribute="width" constant="150" id="hnb-5c-rXy"/>
                                 </constraints>
-                                <state key="normal" title="Ynoñan"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Ynoñan">
+                                    <color key="titleColor" red="0.36969542500000002" green="0.30605423450000002" blue="0.89810305830000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
                                         <color key="value" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -638,54 +673,64 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CAYUIButtonGradiendColor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RPZ-ng-3xl">
+                                <rect key="frame" x="30" y="98" width="354" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CAYUIButton" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgo-gd-GGS">
+                                <rect key="frame" x="30" y="379" width="354" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="cyp-KN-DtW" firstAttribute="leading" secondItem="fgp-F7-fIj" secondAttribute="trailing" constant="20" id="1em-92-8re"/>
                             <constraint firstItem="3p0-sv-cne" firstAttribute="leading" secondItem="z9U-df-aAT" secondAttribute="trailing" constant="20" id="2kK-EX-04J"/>
-                            <constraint firstItem="FV8-QB-eh9" firstAttribute="top" secondItem="wam-fi-DsV" secondAttribute="bottom" constant="20" id="39E-DA-WPa"/>
                             <constraint firstItem="Ub3-kQ-vQx" firstAttribute="leading" secondItem="HzY-K2-XQc" secondAttribute="trailing" constant="20" id="4Ep-a7-8nd"/>
                             <constraint firstItem="z9U-df-aAT" firstAttribute="leading" secondItem="HzY-K2-XQc" secondAttribute="leading" id="6LK-FW-hb8"/>
-                            <constraint firstItem="z9U-df-aAT" firstAttribute="top" secondItem="HzY-K2-XQc" secondAttribute="bottom" constant="10" id="9PF-6e-y0n"/>
+                            <constraint firstItem="z9U-df-aAT" firstAttribute="top" secondItem="HzY-K2-XQc" secondAttribute="bottom" constant="20" id="9PF-6e-y0n"/>
                             <constraint firstItem="gna-Jh-bCz" firstAttribute="centerY" secondItem="AS9-kN-Zw4" secondAttribute="centerY" id="9cJ-kD-HDN"/>
                             <constraint firstItem="gna-Jh-bCz" firstAttribute="leading" secondItem="AS9-kN-Zw4" secondAttribute="trailing" constant="20" id="Cjk-3n-FYg"/>
+                            <constraint firstItem="gna-Jh-bCz" firstAttribute="trailing" secondItem="0I8-wE-p7p" secondAttribute="trailing" id="Du1-Y8-znS"/>
                             <constraint firstItem="Ub3-kQ-vQx" firstAttribute="centerY" secondItem="HzY-K2-XQc" secondAttribute="centerY" id="FHx-dp-mYp"/>
                             <constraint firstItem="0I8-wE-p7p" firstAttribute="centerY" secondItem="FV8-QB-eh9" secondAttribute="centerY" id="GpT-v9-4UF"/>
                             <constraint firstItem="0I8-wE-p7p" firstAttribute="leading" secondItem="FV8-QB-eh9" secondAttribute="trailing" constant="20" id="IVg-dp-Xko"/>
-                            <constraint firstItem="AS9-kN-Zw4" firstAttribute="top" secondItem="FV8-QB-eh9" secondAttribute="bottom" constant="10" id="V0A-wz-DX7"/>
+                            <constraint firstItem="jgo-gd-GGS" firstAttribute="leading" secondItem="RPZ-ng-3xl" secondAttribute="leading" id="JXq-qr-8Xa"/>
+                            <constraint firstItem="jgo-gd-GGS" firstAttribute="top" secondItem="fgp-F7-fIj" secondAttribute="bottom" constant="30" id="OY3-Xn-WtL"/>
+                            <constraint firstItem="AS9-kN-Zw4" firstAttribute="top" secondItem="FV8-QB-eh9" secondAttribute="bottom" constant="20" id="V0A-wz-DX7"/>
+                            <constraint firstItem="HzY-K2-XQc" firstAttribute="width" secondItem="Ub3-kQ-vQx" secondAttribute="width" id="YRU-Hm-oQY"/>
+                            <constraint firstItem="z9U-df-aAT" firstAttribute="width" secondItem="3p0-sv-cne" secondAttribute="width" id="ZEb-Oe-tc9"/>
                             <constraint firstItem="AS9-kN-Zw4" firstAttribute="leading" secondItem="FV8-QB-eh9" secondAttribute="leading" id="Zso-mI-nW3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RPZ-ng-3xl" secondAttribute="trailing" constant="10" id="b85-7T-BTW"/>
                             <constraint firstItem="cyp-KN-DtW" firstAttribute="centerY" secondItem="fgp-F7-fIj" secondAttribute="centerY" id="bj3-cr-xQG"/>
-                            <constraint firstItem="HzY-K2-XQc" firstAttribute="top" secondItem="fgp-F7-fIj" secondAttribute="bottom" constant="10" id="csO-fm-CXF"/>
+                            <constraint firstItem="FV8-QB-eh9" firstAttribute="top" secondItem="RPZ-ng-3xl" secondAttribute="bottom" constant="10" id="e7o-Zp-rQJ"/>
                             <constraint firstItem="3p0-sv-cne" firstAttribute="centerY" secondItem="z9U-df-aAT" secondAttribute="centerY" id="fTI-Tq-BHp"/>
                             <constraint firstItem="fgp-F7-fIj" firstAttribute="leading" secondItem="AS9-kN-Zw4" secondAttribute="leading" id="fWh-kO-8Dm"/>
+                            <constraint firstItem="RPZ-ng-3xl" firstAttribute="top" secondItem="wam-fi-DsV" secondAttribute="bottom" constant="10" id="gyj-HX-pZp"/>
+                            <constraint firstItem="jgo-gd-GGS" firstAttribute="trailing" secondItem="RPZ-ng-3xl" secondAttribute="trailing" id="jvP-I4-Gbu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0I8-wE-p7p" secondAttribute="trailing" constant="16" id="kVR-zx-Q9l"/>
                             <constraint firstItem="FV8-QB-eh9" firstAttribute="leading" secondItem="Kl7-K8-6h9" secondAttribute="leading" constant="16" id="nag-EI-GC6"/>
+                            <constraint firstItem="RPZ-ng-3xl" firstAttribute="leading" secondItem="Kl7-K8-6h9" secondAttribute="leadingMargin" constant="10" id="oeU-zz-eEx"/>
+                            <constraint firstItem="3p0-sv-cne" firstAttribute="trailing" secondItem="Ub3-kQ-vQx" secondAttribute="trailing" id="qpE-fC-trw"/>
+                            <constraint firstItem="Ub3-kQ-vQx" firstAttribute="trailing" secondItem="cyp-KN-DtW" secondAttribute="trailing" id="sOh-HF-ku0"/>
+                            <constraint firstItem="AS9-kN-Zw4" firstAttribute="width" secondItem="gna-Jh-bCz" secondAttribute="width" id="tN9-yl-hc7"/>
+                            <constraint firstItem="FV8-QB-eh9" firstAttribute="width" secondItem="0I8-wE-p7p" secondAttribute="width" id="tR1-lh-eCw"/>
+                            <constraint firstItem="HzY-K2-XQc" firstAttribute="top" secondItem="jgo-gd-GGS" secondAttribute="bottom" constant="20" id="uRJ-Bz-SRP"/>
                             <constraint firstItem="HzY-K2-XQc" firstAttribute="leading" secondItem="fgp-F7-fIj" secondAttribute="leading" id="uzg-lo-PdZ"/>
-                            <constraint firstItem="fgp-F7-fIj" firstAttribute="top" secondItem="AS9-kN-Zw4" secondAttribute="bottom" constant="10" id="z9Y-Mz-KPV"/>
+                            <constraint firstItem="fgp-F7-fIj" firstAttribute="width" secondItem="cyp-KN-DtW" secondAttribute="width" id="vlk-oW-wX3"/>
+                            <constraint firstItem="fgp-F7-fIj" firstAttribute="top" secondItem="AS9-kN-Zw4" secondAttribute="bottom" constant="20" id="z9Y-Mz-KPV"/>
+                            <constraint firstItem="cyp-KN-DtW" firstAttribute="trailing" secondItem="gna-Jh-bCz" secondAttribute="trailing" id="zBc-9U-xWf"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Custom Button 2" id="hhY-ne-q1B"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XOp-5R-nIX" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1645.5999999999999" y="132.68365817091455"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="6N6-h8-WiE">
-            <objects>
-                <viewController id="PLe-h5-VPy" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ct4-wa-pht"/>
-                        <viewControllerLayoutGuide type="bottom" id="hcE-eb-Iya"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Q1a-zP-RH2">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Xbe-4P-jc3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2344.8000000000002" y="132.68365817091455"/>
+            <point key="canvasLocation" x="1628" y="133"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="PrO-Yr-eX5">
@@ -693,7 +738,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rSH-bG-Lch" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="fMa-el-ecp">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -711,7 +756,7 @@
             <size key="intrinsicContentSize" width="30" height="30"/>
         </designable>
         <designable name="3p0-sv-cne">
-            <size key="intrinsicContentSize" width="52" height="30"/>
+            <size key="intrinsicContentSize" width="61" height="34"/>
         </designable>
         <designable name="918-uz-MMa">
             <size key="intrinsicContentSize" width="30" height="30"/>
@@ -741,7 +786,7 @@
             <size key="intrinsicContentSize" width="30" height="30"/>
         </designable>
         <designable name="Ub3-kQ-vQx">
-            <size key="intrinsicContentSize" width="102" height="27"/>
+            <size key="intrinsicContentSize" width="124" height="30"/>
         </designable>
         <designable name="XBL-z6-2TZ">
             <size key="intrinsicContentSize" width="30" height="30"/>
@@ -774,9 +819,4 @@
             <size key="intrinsicContentSize" width="69" height="30"/>
         </designable>
     </designables>
-    <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-    </resources>
 </document>
